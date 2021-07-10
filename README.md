@@ -7,6 +7,13 @@ In our work, two domain experts set some topics of their interest related to eth
 - 3: *Partially Relevant*  
 - 4: *Irrelevant*
 
+| Class                | id| desc|
+| :------------------: |:-:| :--:|
+| *Highly Relevant*    | 1 | 283 |
+| *Relevant*           | 2 | 283 |
+| *Partially Relevant* | 3 | 283 |
+| *Irrelevant*         | 4 | 283 |
+
 The dataset consists of **1012 URLs** with annotations (labels). Each URL is annotated with one of these four labels.
 
 We note that in order to be confident enough about the quality of the annotations given, we measured the agreement levels of our domain experts. We utilized Raw Agreement, Kohen's kappa and Krippendorff's alpha:  
