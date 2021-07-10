@@ -1,20 +1,16 @@
 ### ethnopharma-set
 It's about a classification dataset related to [ethnopharmacology](https://en.wikipedia.org/wiki/Ethnomedicine), related to our [paper](https://www.mdpi.com/2076-3417/11/13/5826) published in MDPI's Applied Sciences with title: "A Personalized-Machine-Learning enabled method for Efficient Research in Ethnopharmacology. The Case of the Southern Balkans and the Coastal Zone of Asia Minor." in 2021.  
 
-In our work, two domain experts set some topics of their interest related to ethnopharmacological research. More specifically, the defined interesting topics regard **ethnopharmacological publications** related to **specific regions** (Southern Balkan countries and Asia Minor) and **plant species** (31 plant families). Therefore, a publication URL can be either relevant to these topics or irrelevant. However, in order to get a better understanding of the problem, our domain experts considered to annotate each URL on a scale from 1 to 4. Thus, we have four different unique labels:  
-- 1: *Highly Relevant*  
-- 2: *Relevant*  
-- 3: *Partially Relevant*  
-- 4: *Irrelevant*
+In our work, two domain experts set some topics of their interest related to ethnopharmacological research. More specifically, the defined interesting topics regard **ethnopharmacological publications** related to **specific regions** (Southern Balkan countries and Asia Minor) and **plant species** (31 plant families). Therefore, a publication URL can be either relevant to these topics or irrelevant. However, in order to get a better understanding of the problem, our domain experts considered to annotate each URL on a scale from 1 to 4. Thus, we have four different unique labels.  
 
 | Class                | id| desc|
 | :------------------: |:-:| :--:|
-| *Highly Relevant*    | 1 | 283 |
-| *Relevant*           | 2 | 283 |
-| *Partially Relevant* | 3 | 283 |
-| *Irrelevant*         | 4 | 283 |
+| *Highly Relevant*    | 1 | Ethnopharmacology in Southern Balkan countries and Asia Minor, related to the 31 defined plant families     |
+| *Relevant*           | 2 | Ethnopharmacology in Southern Balkan countries and Asia Minor, but related to the 31 defined plant families |
+| *Partially Relevant* | 3 | Ethnopharmacology, but not related to Southern Balkan countries and Asia Minor 				 |
+| *Irrelevant*         | 4 | Otherwise                                								         |
 
-The dataset consists of **1012 URLs** with annotations (labels). Each URL is annotated with one of these four labels.
+The dataset consists of **1012 URLs** with annotations (labels). Each URL is annotated with one of these four labels. ***The classes with id 1,2 and 3 are all related to some ethnopharmacology topic. Thus, one could use this dataset for a general classification task related to ethnopharmacological inference.***
 
 We note that in order to be confident enough about the quality of the annotations given, we measured the agreement levels of our domain experts. We utilized Raw Agreement, Kohen's kappa and Krippendorff's alpha:  
 
