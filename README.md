@@ -11,6 +11,8 @@ The dataset consists of **1012 URLs** with annotations (labels). Each URL is ann
 
 We note that in order to be confident enough about the quality of the annotations given, we measured the agreement levels of our domain experts. We utilized Raw Agreement, Kohen's kappa and Krippendorff's alpha:  
 
+![agreement](img/agreement_ethnopharma.png)
+
 
 ### Citation
 
