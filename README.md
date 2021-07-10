@@ -10,13 +10,15 @@ In our work, two domain experts set some topics of their interest related to eth
 | *Partially Relevant* | 3 | Ethnopharmacology, but not related to Southern Balkan countries and Asia Minor 				 |
 | *Irrelevant*         | 4 | Otherwise                                								         |
 
-The dataset consists of **1012 URLs** with annotations (labels). Each URL is annotated with one of these four labels. ***The classes with id 1,2 and 3 are all related to some ethnopharmacology topic. Thus, one could use this dataset for a general classification task related to ethnopharmacological inference.***
+The dataset consists of **1012 URLs** with annotations (labels). Each URL is annotated with one of these four labels.
 
 We note that in order to be confident enough about the quality of the annotations given, we measured the agreement levels of our domain experts. We utilized Raw Agreement, Kohen's kappa and Krippendorff's alpha:  
 
 <p align="center">
   <img src="img/agreement_ethnopharma.png">
-</p>
+</p>  
+
+***The classes with id 1,2 and 3 are all related to some ethnopharmacology topic. Thus, one could use this dataset for a general classification task related to ethnopharmacological inference.***
 
 ### Citation
 
